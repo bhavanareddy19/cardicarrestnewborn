@@ -1,0 +1,26 @@
+# Core ML/DL
+tensorflow>=2.12.0
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# BERT / NLP (HuggingFace ecosystem, uses PyTorch backend)
+transformers>=4.30.0
+torch>=2.0.0
+tokenizers>=0.13.0
+
+# Hyperparameter Optimization
+optuna>=3.2.0
+ray[tune]>=2.5.0
+
+# Data augmentation for imbalanced classes
+imbalanced-learn>=0.10.0
+
+# Utilities
+tqdm>=4.65.0
+joblib>=1.2.0
+
+# GUI (existing dependency)
+PyQt5>=5.15.0
